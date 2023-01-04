@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: jerry
+Build-Jdk: 17.0.4
+Implementation-Title: int
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: sujin
+Main-Class: ${start-class}
+

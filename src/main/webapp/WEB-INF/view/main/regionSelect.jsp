@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <title>regionSelect</title>
 <link rel='stylesheet' href='css/regionSelect.css'/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/regionSelect.js"></script>
 </head>
 <body>
 	<main class='regionSelectMain'>
