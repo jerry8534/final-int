@@ -83,6 +83,7 @@ public class TourAPIJsonParsing {
 			vo.setTel(tel);
 			vo.setHomepage(homepage);
 			vo.setTitle(title);
+			vo.setOverView(overview);
 
 		} catch (ParseException e) {
 			e.printStackTrace();

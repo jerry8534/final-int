@@ -14,3 +14,7 @@ $('.regionSelectJeolla').on('click',function(){
     $('#modal').load('/plan/itemDetailModal/129156');
     $('#modal').css('display', 'flex');
 })
+
+$('.regionSelectChung').on('click',function(){
+    $('#content').load('/plan/itemList/부산');
+})

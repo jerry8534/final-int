@@ -37,7 +37,8 @@ public class PlanController {
         String a = tourAPIGetData.getKeywordJsonData(region);
         TourAPIJsonParsing tourAPIJsonParsing = new TourAPIJsonParsing();
         List<String> b = tourAPIJsonParsing.getContentIdList(a);
-        List<String> result = tourAPIGetData.getDetailJsonDataListByType(b, contentTypeId);
+        List<String> c = tourAPIGetData.getDetailJsonDataListByType(b, contentTypeId);
+        List<testVo> result = tourAPIJsonParsing.getOutputList(c);
         mv.addObject("result", result);
         mv.setViewName("main/itemlist");
         return mv;
