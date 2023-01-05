@@ -9,3 +9,8 @@ $('.regionSelectGang').on('click',function(){
 $('.regionSelectGyeong').on('click',function(){
     $('#content').load('/plan/itemDetail/129156');
 })
+
+$('.regionSelectJeolla').on('click',function(){
+    $('#modal').load('/plan/itemDetailModal/129156');
+    $('#modal').css('display', 'flex');
+})

@@ -54,4 +54,16 @@ public class PlanController {
         mv.setViewName("main/itemdetail");
         return mv;
     }
+
+    @RequestMapping("/plan/itemDetailModal/{contentId}")
+    public ModelAndView itemDetailModal(@PathVariable String contentId) {
+        ModelAndView mv = new ModelAndView();
+        TourAPIGetData tourAPIGetData = new TourAPIGetData();
+        String result1 = tourAPIGetData.getMoreDetailJsonData(contentId);
+        TourAPIJsonParsing tourAPIJsonParsing = new TourAPIJsonParsing();
+        testVo result2 = tourAPIJsonParsing.getDetailItem(result1);
+        mv.addObject("result", result2);
+        mv.setViewName("main/itemdetailModal");
+        return mv;
+    }
 }
