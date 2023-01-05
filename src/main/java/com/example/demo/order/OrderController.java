@@ -21,7 +21,7 @@ public class OrderController {
     @RequestMapping("/order/viewdetail")
     public ModelAndView viewDetail() {
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("main/viewdetail");
+        mv.setViewName("itemdetail");
         return mv;
     }
 }
