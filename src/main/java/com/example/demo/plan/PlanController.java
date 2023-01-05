@@ -2,6 +2,7 @@ package com.example.demo.plan;
 
 import com.example.demo.tourapi.TourAPIGetData;
 import com.example.demo.tourapi.TourAPIJsonParsing;
+import com.example.demo.tourapi.testVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -46,8 +47,10 @@ public class PlanController {
     public ModelAndView itemDetail(@PathVariable String contentId) {
         ModelAndView mv = new ModelAndView();
         TourAPIGetData tourAPIGetData = new TourAPIGetData();
-        String result = tourAPIGetData.getMoreDetailJsonData(contentId);
-        mv.addObject("result", result);
+        String result1 = tourAPIGetData.getMoreDetailJsonData(contentId);
+        TourAPIJsonParsing tourAPIJsonParsing = new TourAPIJsonParsing();
+        testVo result2 = tourAPIJsonParsing.getDetailItem(result1);
+        mv.addObject("result", result2);
         mv.setViewName("main/itemdetail");
         return mv;
     }

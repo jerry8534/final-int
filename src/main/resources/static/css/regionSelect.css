@@ -24,7 +24,7 @@
 	margin-top : 1em;
 	grid-column: 1 / 2;
 	grid-row: 2 / 4;
-	background-image: url("/image/zha.jpeg");
+	background-image: url("/image/all.jpeg");
 	background-position : center;
 	background-size : cover;
 	filter: grayscale(100%);
@@ -38,7 +38,7 @@
 	margin-top : 1em;
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
-	background-image: url("/image/zha.jpeg");
+	background-image: url("/image/kangwon.jpg");
 	background-position : center;
 	background-size : cover;
 	filter: grayscale(100%);
@@ -52,7 +52,7 @@
 	margin-top : 1em;
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
-	background-image: url("/image/zha.jpeg");
+	background-image: url("/image/gyeungsang.jpeg");
 	background-position : center;
 	background-size : cover;
 	filter: grayscale(100%);
@@ -65,7 +65,7 @@
 .regionSelectJeolla{
 	grid-column: 2 / 3;
 	grid-row: 3 / 4;
-	background-image: url("/image/zha.jpeg");
+	background-image: url("/image/jeolla.jpeg");
 	background-position : center;
 	background-size : cover;
 	filter: grayscale(100%);
@@ -78,7 +78,7 @@
 .regionSelectChung{
 	grid-column: 3 / 4;
 	grid-row: 3 / 4;
-	background-image: url("/image/zha.jpeg");
+	background-image: url("/image/chungcheong.jpeg");
 	background-position : center;
 	background-size : cover;
 	filter: grayscale(100%);
@@ -92,6 +92,7 @@ p{
 	font-size: 3em;
 	font-family: sans-serif;
 	margin-top : 4em;
+	color : white;
 }
 
 .koreap{

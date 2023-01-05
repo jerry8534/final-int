@@ -10,5 +10,14 @@ public class testVo {
 	String title;
 	String firstImage;
 	String overView;
+	String addr1;
+	String addr2;
+	String tel;
+	String homepage;
+	String mapX;
+	String mapY;
+	String contentTypeId;
+	String cat1;
+	String firstImage2;
 
 }

@@ -51,7 +51,7 @@
             <span id='people'>인원</span>
             <input type='text' size='5' id='peopleSu'/>
             </span>
-            <input type='button' id='btnSearch' value='A'/>
+            <input type='button' id='btnSearch' value='Search'/>
             <input type='button' id='btnB' value='B'/>
         </div>
     </section>

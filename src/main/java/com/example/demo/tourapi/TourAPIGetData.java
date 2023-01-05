@@ -84,7 +84,7 @@ public class TourAPIGetData {
 		return json.toString();
 	}
 
-	// 공통정보조회(한건의 데이터만 조회)
+	// 공통정보조회(한건의 데이터만 조회, 상세정보까지 표기)
 	public String getMoreDetailJsonData(String contentId) {
 		StringBuffer json = new StringBuffer();
 
